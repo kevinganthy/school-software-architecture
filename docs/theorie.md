@@ -26,12 +26,15 @@ Une cabane de jardin, une maison individuelle et un gratte-ciel ont tous des fon
 
 ---
 
-En logiciel, c'est pareil : on choisit une architecture en fonction des contraintes :
+### Pour un logiciel
 
-- Scalabilité / Charge (combien d'utilisateurs simultanés ?)
-- Taille et organisation de l'équipe (2 dev vs 50 dev)
-- Time-to-market / Budget (faut-il sortir le produit en 2 semaines ou en 2 ans ?)
-- Complexité métier & Résilience (si un composant tombe, comment doit réagir le système ?)
+|Crainte|Exemple|
+|---|---|
+| Scalabilité | Combien d'utilisateurs simultanés ? |
+| Time-to-market / Budget | Faut-il sortir le produit en 2 semaines ou en 2 ans ? |
+| Equipe de dev | 2 dev vs 50 dev |
+| Complexité métier | Combien de règles et de cas particuliers ? |
+| Résilience | Que se passe-t-il si un composant tombe ? |
 
 ---
 
@@ -39,15 +42,17 @@ En logiciel, c'est pareil : on choisit une architecture en fonction des contrain
 
 ⚠️ On ne rentre pas dans les détails d'implémentation, on se concentre sur les problèmes résolus et les compromis à faire avec chaque architecture.
 
+---
+
 ### Monolithe
 
 > Le classique MVC : Tout le code (front, back, BDD) dans un seul projet/déploiement.
 
----
-
 👍👍👍 Avantages : Simple à développer, rapide à déployer au début, facile à tester.
 
 👎👎👎 Inconvénients : Devient un capharnaüm si le projet grossit, scalabilité verticale obligatoire.
+
+---
 
 ### Microservices
 
@@ -64,6 +69,8 @@ En logiciel, c'est pareil : on choisit une architecture en fonction des contrain
 ---
 
 Une alternative est le **Service Oriented Architecture (SOA)**, qui est un peu plus centralisé et moins orienté "micro" que les microservices.
+
+---
 
 ### Architecture orientée événements (Event-Driven)
 
