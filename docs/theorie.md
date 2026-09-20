@@ -42,15 +42,19 @@ Une cabane de jardin, une maison individuelle et un gratte-ciel ont tous des fon
 
 ⚠️ On ne rentre pas dans les détails d'implémentation, on se concentre sur les problèmes résolus et les compromis à faire avec chaque architecture.
 
+- Monolithe
+- Microservices
+- Event-Driven
+
 ---
 
 ### Monolithe
 
 > Le classique MVC : Tout le code (front, back, BDD) dans un seul projet/déploiement.
 
-👍👍👍 Avantages : Simple à développer, rapide à déployer au début, facile à tester.
+👍👍👍 Avantages : Simple à développer, rapide à déployer au début.
 
-👎👎👎 Inconvénients : Devient un capharnaüm si le projet grossit, scalabilité verticale obligatoire.
+👎👎👎 Inconvénients : Capharnaüm si le projet grossit, scalabilité verticale obligatoire.
 
 ---
 
@@ -64,9 +68,7 @@ Une cabane de jardin, une maison individuelle et un gratte-ciel ont tous des fon
 
 👍👍👍 Avantages : Équipes indépendantes, déploiements isolés, scalabilité horizontale et ciblée.
 
-👎👎👎 Inconvénients : Complexité réseau, devops lourd, consistance des données difficile.
-
----
+👎👎👎 Inconvénients : Complexité réseau et latence, devops lourd, consistance des données difficile.
 
 Une alternative est le **Service Oriented Architecture (SOA)**, qui est un peu plus centralisé et moins orienté "micro" que les microservices.
 
@@ -83,3 +85,11 @@ Une alternative est le **Service Oriented Architecture (SOA)**, qui est un peu p
 👍👍👍 Avantages : Découplage fort entre les services, haute réactivité en temps réel, excellente tolérance aux pannes (asynchronisme).
 
 👎👎👎 Inconvénients : Complexité architecturale accrue, traçabilité des données/flux difficile, cohérence éventuelle à gérer.
+
+---
+
+## Conclusion
+
+Il n'existe pas de "bonne" architecture universelle. Chaque projet a ses contraintes et ses besoins, et il faut choisir l'architecture qui y répond le mieux.
+
+Tout est une question de **Trade-offs** 😱
