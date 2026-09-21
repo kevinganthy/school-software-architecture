@@ -8,10 +8,6 @@
 
 ## Jour 1 : Introduction aux architectures logicielles
 
-- Distinguer les caractéristiques, avantages et limites d'architecture logicielle.
-- Identifier les anti-patterns d'architecture les plus courants
-- Sélectionner une architecture adaptée à partir de scénarios et de besoins métiers.
-
 Déroulement :
 
 1. [La théorie](./theorie.md) dans les grandes lignes
