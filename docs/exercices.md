@@ -2,7 +2,7 @@
 
 L'objectif est de réfléchir ensemble pour trouver l'architecture logicielle optimale pour un besoin donné.
 
-> Il n'y a pas de mauvaises idées, l'argumentation servira à les confirmer ou les infirmer
+> Il n'y a pas de mauvaises idées, l'argumentation servira à les confirmer ou les infirmer.
 
 - Car.tag
 - Niche.saas
@@ -37,6 +37,6 @@ Un éditeur de logiciel veut transformer le besoin d'un de ces clients en un Saa
 
 ## France.travail
 
-L'état veut moderniser son système de gestion des demandeurs d'emploi.
+L'état veut moderniser son système de gestion de demandeurs d'emploi.
 
 > Le système actuel est viellissant et difficilement maintenable. L'ajout de nouvelles fonctionnalités est un calvaire. Tous les 28 du mois, le site est saturé par les demandeurs d'emploi qui s'actualisent.

@@ -6,6 +6,8 @@
 - Concevoir une architecture logicielle globale répondant aux exigences d'un cahier des charges métier complet.
 - Argumenter et défendre le choix d'une infrastructure et d'un patron d'architecture devant une équipe technique ou une direction.
 
+---
+
 ## Jour 1 : Introduction aux architectures logicielles
 
 Déroulement :
@@ -16,6 +18,8 @@ Déroulement :
 4. [Mise en pratique](./atelier.md) : Modéliser l'architecture d'un projet fil rouge
 5. [Anti-patterns & Pièges](./pieges.md) : Les erreurs classiques à éviter (Over-engineering, Monolithe distribué)
 6. [Bilan & Check-list](./bilan.md) : Grille d'évaluation pour choisir sa future stack
+
+---
 
 ## Jour 2
 
