@@ -2,15 +2,13 @@
 
 > Pourquoi n'existe-t-il pas une seule 'bonne' façon de concevoir une application ?
 
-- Évaluer les différentes architectures logicielles en fonction des contraintes techniques, budgétaires et organisationnelles.
-- Concevoir une architecture logicielle globale répondant aux exigences d'un cahier des charges métier complet.
-- Argumenter et défendre le choix d'une infrastructure et d'un patron d'architecture devant une équipe technique ou une direction.
+- Évaluer les différentes architectures logicielles
+- Concevoir une architecture logicielle répondant aux exigences métiers
+- Argumenter et défendre votre choix devant une équipe technique
 
 ---
 
 ## Jour 1 : Introduction aux architectures logicielles
-
-Déroulement :
 
 1. [La théorie](./theorie.md) dans les grandes lignes
 2. [Brainstorm](./exercices.md) sur des exemples de besoins
