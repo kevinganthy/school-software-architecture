@@ -6,8 +6,6 @@
 - Concevoir une architecture logicielle répondant aux exigences métiers
 - Argumenter et défendre votre choix devant une équipe technique
 
-![Différentes architectures](./assets/pasta-theory.png)
-
 ---
 
 ## Jour 1 : Introduction aux architectures logicielles

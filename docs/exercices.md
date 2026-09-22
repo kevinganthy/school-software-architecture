@@ -31,12 +31,12 @@ Un éditeur de logiciel veut transformer le besoin d'un de ces clients en un Saa
 
 2 copains en sortie d'école veulent créer une app
 
-> Une application de réservation de créneaux pour des artisans locaux. L'objectif est de valider le marché en moins de 3 semaines avec un budget minimal.
+> Une application de réservation de créneaux pour des artisans locaux. L'objectif est de valider l'idée en moins de 3 semaines avec un budget minimal.
 
 ---
 
 ## France.travail
 
-L'état veut moderniser son système de gestion de demandeurs d'emploi.
+L'État veut moderniser son système de gestion de demandeurs d'emploi.
 
 > Le système actuel est viellissant et difficilement maintenable. L'ajout de nouvelles fonctionnalités est un calvaire. Tous les 28 du mois, le site est saturé par les demandeurs d'emploi qui s'actualisent.
